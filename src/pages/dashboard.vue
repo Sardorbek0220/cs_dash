@@ -501,6 +501,7 @@ export default {
       }
       this.loading = true;
       this.info = [];
+      this.categoryData = [];
       const date = this.date.toISOString().slice(0, 10);
 
       var token = "";
